@@ -12,4 +12,6 @@ Click on this link to take a look at the project : https://my-icm-app.netlify.ap
 
 ## About this project
 
+
+An application for calculating the body mass index.
 The ICM Project is a **front-end** project made in 2023 with **JavaScript**.
