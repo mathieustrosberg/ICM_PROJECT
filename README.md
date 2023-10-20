@@ -1,7 +1,7 @@
 <h1 align="center">ICM App</h1>
 
 <p align="center">
-<img width="800" alt="To-do List Project" src="https://github.com/Corinne-Coding/To-Do-List-React-APP/blob/main/src/preview/to-do-list.gif](https://github.com/mathieustrosberg/ICM_PROJECT/blob/main/imc.jpg" />
+<img width="800" alt="To-do List Project" src="https://github.com/mathieustrosberg/ICM_PROJECT/blob/main/imc.jpg](https://github.com/mathieustrosberg/ICM_PROJECT/blob/main/imc.jpg" />
 </p>
 
 <br />
