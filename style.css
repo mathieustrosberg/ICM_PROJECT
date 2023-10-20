@@ -1,0 +1,109 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: white;
+  background-color: #242424;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+h1 span {
+  font-weight: 700;
+}
+
+form button {
+  font-size: 20px;
+  min-width: 200px;
+  margin: 40px auto;
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background: #535bf2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inputs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs-container label {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.inputs-container input {
+  min-width: 350px;
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-group:nth-child(2) {
+  margin-left: 20px;
+}
+
+.info {
+  text-align: center;
+}
+
+.bmi-value {
+  font-size: 45px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+.result {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .inputs-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-group:nth-child(2) {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .input-group input {
+    width: 100%;
+    min-width: auto;
+  }
+}
